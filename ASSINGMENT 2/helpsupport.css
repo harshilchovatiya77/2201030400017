@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #0800ff;
+  color: #ff0000;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.faq,
+.support-ticket,
+.knowledge-base,
+.community-forum {
+  background-color: #ff6a6a;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.faq h3,
+.support-ticket h3,
+.knowledge-base h3,
+.community-forum h3 {
+  margin-top: 0;
+}
+
+.faq p,
+.support-ticket p,
+.knowledge-base p,
+.community-forum p {
+  margin-bottom: 0;
+}

@@ -1,0 +1,67 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E1AFD1;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #94A684;
+  color: #FFEEF4;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.expense-breakdown,
+.spending-analysis,
+.expense-insights,
+.export-options {
+  background-color: #488d58;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.expense-breakdown h3,
+.spending-analysis h3,
+.expense-insights h3,
+.export-options h3 {
+  margin-top: 0;
+}
+
+.expense-breakdown p,
+.spending-analysis p,
+.expense-insights p,
+.export-options p {
+  margin-bottom: 0;
+}

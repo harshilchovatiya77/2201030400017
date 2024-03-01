@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance Tracker - Budgeting Tool</title>
+    <link rel="stylesheet" href="budgetingtool.css">
+</head>
+<body>
+    <header>
+        <h1>Personal Finance Tracker</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./dashboard.html">Dashboard</a></li>
+                <li><a href="./expensetracker.html">Expense Tracker</a></li>
+                <li><a href="./budgetingtool.html">Budgeting Tool</a></li>
+                <li><a href="./report.html">Reports & Analysis</a></li>
+                <li><a href="./settings.html">Settings</a></li>
+                <li><a href="./login.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Budgeting Tool</h2>
+        <section class="budget-section">
+            <h3>Create and Manage Budgets</h3>
+            <!-- Input fields for creating and managing budgets -->
+            <div class="budget-category">
+                <label for="groceries">Groceries:</label>
+                <input type="number" id="groceries" name="groceries" placeholder="Enter budget amount" required>
+            </div>
+            <div class="budget-category">
+                <label for="utilities">Utilities:</label>
+                <input type="number" id="utilities" name="utilities" placeholder="Enter budget amount" required>
+            </div>
+            <div class="budget-category">
+                <label for="entertainment">Entertainment:</label>
+                <input type="number" id="entertainment" name="entertainment" placeholder="Enter budget amount" required>
+            </div>
+        </section>
+        <section class="actual-spending">
+            <h3>Track Actual Spending</h3>
+            <!-- Input fields for tracking actual spending -->
+            <div class="actual-spending-category">
+                <label for="groceries-actual">Groceries:</label>
+                <input type="number" id="groceries-actual" name="groceries-actual" placeholder="Enter actual spending">
+            </div>
+            <div class="actual-spending-category">
+                <label for="utilities-actual">Utilities:</label>
+                <input type="number" id="utilities-actual" name="utilities-actual" placeholder="Enter actual spending">
+            </div>
+            <div class="actual-spending-category">
+                <label for="entertainment-actual">Entertainment:</label>
+                <input type="number" id="entertainment-actual" name="entertainment-actual" placeholder="Enter actual spending">
+            </div>
+        </section>
+        <section class="alerts">
+            <h3>Alerts and Notifications</h3>
+            <!-- Alerts or notifications section -->
+            <p>No alerts or notifications.</p>
+        </section>
+        <section class="tips">
+            <h3>Suggestions and Tips</h3>
+            <!-- Suggestions or tips section -->
+            <p>No suggestions or tips.</p>
+        </section>
+    </div>
+</body>
+</html>

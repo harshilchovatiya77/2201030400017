@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance Tracker - Expense Tracker</title>
+    <link rel="stylesheet" href="expensetracker.css">
+</head>
+<body>
+    <header>
+        <h1>Personal Finance Tracker</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./dashboard.html">Dashboard</a></li>
+                <li><a href="./expensetracker.html">Expense Tracker</a></li>
+                <li><a href="./budgetingtool.html">Budgeting Tool</a></li>
+                <li><a href="./report.html">Reports & Analysis</a></li>
+                <li><a href="./settings.html">Settings</a></li>
+                <li><a href="./login.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Expense Tracker</h2>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div class="form-group">
+                <label for="amount">Amount</label>
+                <input type="number" id="amount" name="amount" step="0.01" required>
+            </div>
+            <div class="form-group">
+                <label for="category">Category</label>
+                <select id="category" name="category" required>
+                    <option value="">Select Category</option>
+                    <option value="Food">Food</option>
+                    <option value="Transportation">Transportation</option>
+                    <option value="Utilities">Utilities</option>
+                    <option value="Entertainment">Entertainment</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="description">Description</label>
+                <textarea id="description" name="description"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="receipt">Receipt</label>
+                <input type="file" id="receipt" name="receipt">
+            </div>
+            <button type="submit" class="btn">Add Expense</button>
+        </form>
+        <section class="filters">
+            <h3>Filters and Sorting</h3>
+            <!-- Add filters and sorting options here -->
+        </section>
+        <section class="visuals">
+            <h3>Visual Representations</h3>
+            <!-- Add pie charts or bar graphs here -->
+        </section>
+    </div>
+</body>
+</html>
